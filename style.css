@@ -1,15 +1,53 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin-left: 10%;
 
+
+}
+
+.full-web-width {
+    margin-left: 10%;
+    margin-top: 7%;
 }
 
 .focus-area {
     display: flex;
 }
 
+.mission-area {
+    display: flex;
+}
+
+.develop-area {
+    display: flex;
+    margin-top: 7%;
+
+}
+
+.community-area {
+    display: flex;
+    margin-top: 7%;
+}
+
+.community-margin {
+    margin-right: 7%;
+}
+
+
+
 h1 {
     font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.mission-head {
+    text-align: center;
+}
+
+.focus-head {
+
     border-left: 5px solid;
     border-image: linear-gradient(tomato, orange);
     border-image-slice: 1;
@@ -35,5 +73,45 @@ h1 {
 
 .half-width img {
     width: 80%;
+
+}
+
+.width-section {
+    width: 30%;
+}
+
+.width-section img {
+    width: 50%;
+}
+
+.mission {
+    background-color: rgb(104, 107, 107);
+    border-radius: 20px;
+    padding: 25px;
+    margin-right: 25px;
+}
+
+.vision {
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 25px;
+    margin-right: 25px;
+}
+
+.goal {
+    background-color: rgb(235, 185, 120);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+footer {
+    background-color: rgb(53, 45, 45);
+    text-align: center;
+    padding: 10px 50px;
+
+}
+
+.white-color {
+    color: white;
 
 }
